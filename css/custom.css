@@ -3,9 +3,12 @@
     display: block;
   }
 }
+tbody td:first-child {
+  background-color: #FFDC00;
+}
 
 .table-head{
-  background-color: grey;}
+  background-color: #AAAAAA;}
 
 th{
   text-align: center;}
