@@ -2,13 +2,21 @@
   table, thead, tbody, th, td, tr {
     display: block;
   }
-}
-tbody td:first-child {
-  background-color: #FFDC00;
+  thead {
+    display: none;
+  }
 }
 
 .table-head{
   background-color: #AAAAAA;}
+
+tbody td:first-child {
+  background-color: #FFDC00;
+}
+
+.checked {
+  background-color: #7FDBFF;
+}
 
 th{
   text-align: center;}
